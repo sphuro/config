@@ -1,8 +1,8 @@
-# My DWM Configuration
+# My current Configuration
 
 ## Looks
 
-![wallpaper](pics/2025-02-10_00-43-38.png)
+![wallpaper](pics/2025-02-10_12-05-51.png)
 
 ## Display Manager Configuration
 
