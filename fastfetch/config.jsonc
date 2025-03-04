@@ -4,7 +4,7 @@
 		"source": "~/.config/fastfetch/goku.png",
 		"type": "kitty",
 		"height": 20,
-        "width": 50,
+        "width": 40,
 		"padding": {
 			"top": 3
 		}

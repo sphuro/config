@@ -1,7 +1,4 @@
 #!/bin/bash
-# This script replaces the text in the ASCII file and the configuration file,
-# to make BMO say the specified string. https://github.com/Chick2D/neofetch-themes/blob/main/small/bmofetch/
-# Made by https://github.com/donatienLeray
 
 # Global variable for flags
 VERBOSE=false
@@ -129,7 +126,7 @@ if [[ $input == *'\n'* ]] || [[ $input == *'\r'* ]]; then
 fi
 
 # Get the inner size of the speach bubble
-bub_len=$((${#input}+2))
+bub_len=$((${#input}))
 
 # Make the top line "ˏ______ˎ"
 top_line="ˏ$(printf '_%.0s' $(seq 1 $bub_len))ˎ"
